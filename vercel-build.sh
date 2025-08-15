@@ -7,5 +7,4 @@ git config --global url."https://${GITHUB_TOKEN}@github.com/".insteadOf "https:/
 git lfs install
 git lfs pull
 
-# Run your build
-npm run build
+
