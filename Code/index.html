@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwiftMedia - Digital Excellence</title>
+    <link rel="stylesheet" href="html.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="logo-container">
+                    <span class="logo-text">SwiftMedia</span>
+                    <div class="logo-glow"></div>
+                </div>
+            </div>
+            <div class="nav-menu">
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#work" class="nav-link">Work</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <div class="floating-element" data-speed="0.5"></div>
+            <div class="floating-element" data-speed="0.3"></div>
+            <div class="floating-element" data-speed="0.7"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-logo">
+                <div class="logo-centerpiece">
+                    <img src="../content/swiftmedia.png" alt="SwiftMedia" class="logo-image">
+                    <div class="logo-shimmer"></div>
+                    <div class="logo-pulse"></div>
+                </div>
+            </div>
+            <h1 class="hero-title">
+                <span class="title-line">Digital Excellence</span>
+                <span class="title-line">Reimagined</span>
+            </h1>
+            <p class="hero-subtitle">We craft digital experiences that captivate, convert, and create lasting impact.</p>
+            <div class="hero-cta">
+                <button class="btn-primary magnetic-btn" onclick="scrollToSection('contact')">
+                    <span class="btn-text">Get In Touch</span>
+                    <div class="btn-ripple"></div>
+                </button>
+                <button class="btn-secondary magnetic-btn" onclick="scrollToSection('work')">
+                    <span class="btn-text">View Our Work</span>
+                    <div class="btn-ripple"></div>
+                </button>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">Comprehensive digital solutions that drive results</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-tilt>
+                    <div class="card-icon">
+                        <i class="fas fa-scissors"></i>
+                    </div>
+                    <h3>Short Form Video Editing</h3>
+                    <p>Expert editing for Instagram Reels, TikTok, and YouTube Shorts to maximize engagement.</p>
+                    <div class="card-hover"></div>
+                </div>
+                <div class="service-card" data-tilt>
+                    <div class="card-icon">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <h3>Reels & TikTok Creation</h3>
+                    <p>Creative ideation and production of viral-ready short videos for all platforms.</p>
+                    <div class="card-hover"></div>
+                </div>
+                <div class="service-card" data-tilt>
+                    <div class="card-icon">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <h3>Viral Content Strategy</h3>
+                    <p>Trends research and strategy to help your videos go viral and grow your audience.</p>
+                    <div class="card-hover"></div>
+                </div>
+                <div class="service-card" data-tilt>
+                    <div class="card-icon">
+                        <i class="fas fa-closed-captioning"></i>
+                    </div>
+                    <h3>Motion Graphics & Captions</h3>
+                    <p>Dynamic motion graphics, animated text, and captions to boost retention and accessibility.</p>
+                    <div class="card-hover"></div>
+                </div>
+                <div class="service-card" data-tilt>
+                    <div class="card-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3>Social Media Video Branding</h3>
+                    <p>Consistent branding, intros, and outros for a professional, memorable presence.</p>
+                    <div class="card-hover"></div>
+                </div>
+                <div class="service-card" data-tilt>
+                    <div class="card-icon">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <h3>YouTube Shorts Optimization</h3>
+                    <p>Optimization and analytics for YouTube Shorts to maximize reach and performance.</p>
+                    <div class="card-hover"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Section (Embedded Reels) -->
+    <section id="work" class="work">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Work</h2>
+                <p class="section-subtitle">Showcasing our latest projects and creative solutions</p>
+            </div>
+            <div class="work-grid">
+                <div class="work-item" data-category="elevate">
+                    <div class="work-thumbnail">
+                        <video loop playsinline muted>
+                            <source src="../content/ae-1.mp4" type="video/mp4">
+                        </video>
+                        <div class="video-controls-overlay">
+                            <button class="play-pause-btn" data-state="paused">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <button class="mute-unmute-btn" data-state="muted">
+                                <i class="fas fa-volume-xmark"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item" data-category="elevate">
+                    <div class="work-thumbnail">
+                        <video loop playsinline muted>
+<source src="../content/ae-2.mp4" type="video/mp4">                        </video>
+                        <div class="video-controls-overlay">
+                            <button class="play-pause-btn" data-state="paused">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <button class="mute-unmute-btn" data-state="muted">
+                                <i class="fas fa-volume-xmark"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item" data-category="business">
+                    <div class="work-thumbnail">
+                        <video loop playsinline muted>
+<source src="../content/ae-3.mp4" type="video/mp4">                        </video>
+                        <div class="video-controls-overlay">
+                            <button class="play-pause-btn" data-state="paused">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <button class="mute-unmute-btn" data-state="muted">
+                                <i class="fas fa-volume-xmark"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item" data-category="business">
+                    <div class="work-thumbnail">
+                        <video loop playsinline muted>
+<source src="../content/th-1.mp4" type="video/mp4">                        </video>
+                        <div class="video-controls-overlay">
+                            <button class="play-pause-btn" data-state="paused">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <button class="mute-unmute-btn" data-state="muted">
+                                <i class="fas fa-volume-xmark"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item" data-category="realestate">
+                    <div class="work-thumbnail">
+                        <video loop playsinline muted>
+<source src="../content/th-2.mp4" type="video/mp4">                        </video>
+                        <div class="video-controls-overlay">
+                            <button class="play-pause-btn" data-state="paused">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <button class="mute-unmute-btn" data-state="muted">
+                                <i class="fas fa-volume-xmark"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item" data-category="realestate">
+                    <div class="work-thumbnail">
+                        <video loop playsinline muted>
+<source src="../content/re-1.mp4" type="video/mp4">                        </video>
+                        <div class="video-controls-overlay">
+                            <button class="play-pause-btn" data-state="paused">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <button class="mute-unmute-btn" data-state="muted">
+                                <i class="fas fa-volume-xmark"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                    <div class="work-item" data-category="realestate">
+                    <div class="work-thumbnail">
+                        <video loop playsinline muted>
+<source src="../content/th-3.mp4" type="video/mp4">                        </video>
+                        <div class="video-controls-overlay">
+                            <button class="play-pause-btn" data-state="paused">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <button class="mute-unmute-btn" data-state="muted">
+                                <i class="fas fa-volume-xmark"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                    <div class="work-item" data-category="realestate">
+                    <div class="work-thumbnail">
+                        <video loop playsinline muted>
+<source src="../content/th-4.mp4" type="video/mp4">                        </video>
+                        <div class="video-controls-overlay">
+                            <button class="play-pause-btn" data-state="paused">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <button class="mute-unmute-btn" data-state="muted">
+                                <i class="fas fa-volume-xmark"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                    <div class="work-item" data-category="realestate">
+                    <div class="work-thumbnail">
+                        <video loop playsinline muted>
+<source src="../content/th-5.mp4" type="video/mp4">                        </video>
+                        <div class="video-controls-overlay">
+                            <button class="play-pause-btn" data-state="paused">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <button class="mute-unmute-btn" data-state="muted">
+                                <i class="fas fa-volume-xmark"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                    <div class="work-item" data-category="realestate">
+                    <div class="work-thumbnail">
+                        <video loop playsinline muted>
+<source src="../content/th-6.mp4" type="video/mp4">                        </video>
+                        <div class="video-controls-overlay">
+                            <button class="play-pause-btn" data-state="paused">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <button class="mute-unmute-btn" data-state="muted">
+                                <i class="fas fa-volume-xmark"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                    <div class="work-item" data-category="realestate">
+                    <div class="work-thumbnail">
+                        <video loop playsinline muted>
+<source src="../content/th-7.mp4" type="video/mp4">                        </video>
+                        <div class="video-controls-overlay">
+                            <button class="play-pause-btn" data-state="paused">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <button class="mute-unmute-btn" data-state="muted">
+                                <i class="fas fa-volume-xmark"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                    <div class="work-item" data-category="realestate">
+                    <div class="work-thumbnail">
+                        <video loop playsinline muted>
+<source src="../content/th-8.mp4" type="video/mp4">                        </video>
+                        <div class="video-controls-overlay">
+                            <button class="play-pause-btn" data-state="paused">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <button class="mute-unmute-btn" data-state="muted">
+                                <i class="fas fa-volume-xmark"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Ready to start your next project? Let's talk.</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-cards-container">
+                    <div class="contact-card" data-tilt>
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <p>Jugadveer271@gmail.com</p>
+                        <div class="card-hover"></div>
+                    </div>
+                    <div class="contact-card" data-tilt>
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>Phone</h3>
+                        <p>+91 9518172569</p>
+                        <div class="card-hover"></div>
+                    </div>
+                </div>
+                <div class="contact-form-container" data-tilt>
+                    <form class="form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Your Name</label>
+                            <div class="form-line"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Your Email</label>
+                            <div class="form-line"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" required>
+                            <label for="subject">Subject</label>
+                            <div class="form-line"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <label for="message">Your Message</label>
+                            <div class="form-line"></div>
+                        </div>
+                        <button type="submit" class="btn-primary magnetic-btn">
+                            <span class="btn-text">Send Message</span>
+                            <div class="btn-ripple"></div>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">SwiftMedia</span>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SwiftMedia. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
